@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     }
 
     // MARK: Actions
+    //Creating:app
     @IBAction func calculateButtonPressed(_ sender: Any) {
         guard let numDays = Int(daysTextBox.text!) else {
             return
